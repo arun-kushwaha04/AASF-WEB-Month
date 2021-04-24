@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+    width: 800px;
+    margin: auto;
+}
+
+.md-heading {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3 {
+    color: #222;
+}
+
+.navigation {
+    background-color: lightgrey;
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.navigation a {
+    display: inline-block;
+    color: #444;
+    margin: 1rem 2rem;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    border-bottom: 0.2rem solid black;
+    color: rgb(0, 0, 0);
+    background-color: rgb(197, 197, 197);
+}
+
+header h1 {
+    font-size: 1.6rem;
+    /* color: rgb(65, 64, 64); */
+    text-align: center;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    background-color: lightgrey;
+}
+
+#maintext {
+    font-size: 1.3rem;
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
+.maindiv {
+    font-size: 1.3rem;
+    /* background-color: rgba(249, 252, 175, 0.562); */
+    padding: 2rem;
+    border: 0.1em solid black
+}
+
+.maindiv h3 {
+    text-transform: uppercase;
+    margin: 1rem auto;
+}
+
+#about {
+    font-size: 1.3rem;
+    margin: 1rem auto;
+    padding: 0.5rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.2em 1em;
+    text-transform: uppercase;
+    margin: 0.5em 0;
+}
+
+.maindiv a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #e63946;
+    background-color: #dddddd;
+    border-radius: 100px;
+}
+
+.maindiv a:hover {
+    background-color: #e63946;
+    color: #dddddd;
+}
